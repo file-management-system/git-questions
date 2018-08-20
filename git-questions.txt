@@ -1,0 +1,99 @@
+video - 1 :
+-------------
+Q.1)What is git?
+
+Ans:- 
+  Git is a distributed  version control system.
+
+ Inotherwords It is a system that records  changes to our files over time.
+ We  can recally specific versions of those files at any given time.
+ Many people can easily  collaborate on a project and have their own versions of project files on their computer.
+ 
+Q.2)What does git allow to do?
+
+Ans: -It stores revisions in a project history in a directory.
+     It rewinds any revision in the project I wanted to.
+	  It works on new features without messing up the main codebase.
+	  It permits to easily collaborate with other programmers.
+
+Q.3)What are the main advantages of github?
+
+Ans:  It is an online service that hosts our projects.
+      Share our codes with other developers.
+	  Developers can download the project and work on them.
+	  They can reupload their edits and merge them with the main codebase.
+	  
+Q.4) What is the basic difference between git and github ?
+
+Ans:- Git is a revision control system, a tool to manage your source code history.
+
+      GitHub is a hosting service for Git repositories.
+
+      They are not the same thing.
+	  
+	  Git is the tool, GitHub is the service for projects that use Git.	  
+	  
+video : -2 
+------------
+ All about git installation and commands.
+ 
+video: -3
+------------
+Q1) What is called Repository?
+
+Ans:- A repository is a container for a project you want to track with Git.(e.g. a website project).
+
+Q2) What does a commit mean?
+Ans: - A commit, or "revision", is an individual change to a file (or set of files). 
+      It's like when you save a file, except with Git, every time you save it creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of what changes were made when and by who. 
+	  Commits usually contain a commit message which is a brief description of what changes were made.
+Q3) What are the three stages of commit?
+
+Ans: The three stages of commit are modified, staging and commited.
+    modified means changed the files but not commited.
+	The staging area is a container where git collects all changes which will be part of the next commit. ... The next git commit will transfer all items from staging are into your repository.
+	Any files in the staging area are added to the commit when we make one.
+	
+video :-4
+----------
+commands
+
+video : -5
+-----------
+Q1) How can I know a file is commited or not?
+Ans: 
+  If we will see any file under a project  having green color that means it is modified but not commited yet.
+
+Q2) Using command how can a person know which files are changed and will be commited?
+
+
+ Ans:- When we will give the command git status it will show the files in red color that means it has changed.
+ 
+video :- 6
+-----------
+commands 
+
+Video : -7 
+-----------
+Q1) What does checkout commit mean?
+
+Ans:- 
+     This is an update to the "Commit History" tree. The git checkout command can be used in a commit, or file level scope. 
+	 A file level checkout will change the file's contents to those of the specific commit.
+	 git checkout <commit> is the basic mechanism for moving around in the commit tree, moving your focus (HEAD) to the specified commit.
+	 To "check out" means that you take any given commit from the repository and re-create the state of the associated file and directory tree in the working directory.
+	 
+Q2) What does revert commit mean? 
+   
+Ans: - 
+   A revert is an operation that takes a specified commit and creates a new commit which inverses the specified commit. 
+   git revert can only be run at a commit level scope and has no file level functionality.   
+
+Q3) What does reset commit mean?
+
+Ans:-
+  On the commit-level, resetting is a way to move the tip of a branch to a different commit.
+  This can be used to remove commits from the current branch.
+ 
+ 
+   
